@@ -128,7 +128,7 @@ print(wei.shape)
 
 Y= Data_ran[:,-1]
 
-
+# How to calculate PCAs mathematicaly and before i found out PCA is defined in sklearn so just the PCA.fit works!
 # calculating cov matrix eigen_vectors and values of X
 
 cov_mat = np.cov(X.T)
